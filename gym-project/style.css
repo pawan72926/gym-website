@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("./bg.jpg") ;
+    background-size: cover;
+}
+.left{
+display: inline-block;
+position: absolute;
+left: 34px;
+top: 20px;
+font-family: 'Poppins', sans-serif;
+line-height: 12px;
+font-size: 22px;
+}   
+.mid{
+display: block;
+width: 42%;
+margin: 20px auto;
+font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+    display: inline-block;
+}
+
+.right{
+position: absolute;
+right: 34px;
+top: 20px;
+display: inline-block;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+  padding: 34px 23px; 
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.left img{
+    width: 96px;
+    height: 38px;
+ filter: invert(100%);
+    padding: 0px 0px 0px 25px;
+   
+}
+.left div{
+    text-align: center;
+}
+.right .btn{
+    margin: 14px 9px;
+    background:black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;                         
+    cursor: pointer;             
+    font-family: 'Poppins', sans-serif;                                                                                               ;
+}
+.btn:hover{
+    background-color: rgb(85, 78, 78);
+}
+.navbar li a.active{
+    color:rgb(205 213 195);
+    font-weight: bolder;
+}
+.container{
+    border: 2px solid white;
+    margin: 157px 0px 0px 800px;
+    padding: 56px;
+    width:25%;
+    border-radius: 28px;
+    text-align: center;
+    
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 244px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 16px;
+    border-radius: 8px;
+   padding: 4px;
+}
+.submit{
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 9px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
